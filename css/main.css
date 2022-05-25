@@ -13,6 +13,7 @@ img {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
@@ -35,6 +36,10 @@ a {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(192deg, 100%, 9%);
 }
+.btn-primary {
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(0deg, 0%, 100%);
+}
 
 .navbar {
   display: flex;
@@ -42,11 +47,44 @@ a {
   align-items: center;
   padding-block: 3rem;
 }
+.navbar .logo {
+  width: 12.5rem;
+}
+
+.marketing {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 4.125rem;
+}
+.marketing .marketing-text .marketing-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.8125rem;
+}
+.marketing .marketing-text .lead {
+  margin-bottom: 2rem;
+}
+.marketing .marketing-text .btn {
+  padding-inline: 4.375rem;
+  padding-block: 1.25rem;
+}
 
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
+  color: hsl(192deg, 100%, 9%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
 }
 
 .header {
