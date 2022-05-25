@@ -27,4 +27,8 @@ body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
+}
+
+.header {
+  background-color: hsl(193deg, 100%, 96%);
 }/*# sourceMappingURL=main.css.map */
