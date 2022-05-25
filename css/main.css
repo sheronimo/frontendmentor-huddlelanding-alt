@@ -23,6 +23,19 @@ a {
   padding-inline: 2rem;
 }
 
+.btn {
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding-block: 1rem;
+  padding-inline: 4rem;
+  border-radius: 3.125rem;
+  box-shadow: 0 0.25rem 1rem 0 hsla(0deg, 0%, 0%, 0.1);
+}
+.btn-light {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(192deg, 100%, 9%);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
