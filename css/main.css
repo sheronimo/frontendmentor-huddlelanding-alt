@@ -15,4 +15,10 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
 }/*# sourceMappingURL=main.css.map */
