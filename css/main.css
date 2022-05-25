@@ -23,6 +23,13 @@ a {
   padding-inline: 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 3rem;
+}
+
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
