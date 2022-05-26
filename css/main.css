@@ -71,6 +71,26 @@ a {
   padding-block: 1.25rem;
 }
 
+.marketing {
+  padding-block: 10rem;
+}
+.marketing .card {
+  padding-block: 3.25rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 1rem hsla(208deg, 11%, 55%, 0.2);
+  border-radius: 0.75rem;
+}
+.marketing .card:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+.marketing .card .left {
+  padding-inline: 7.5rem;
+}
+.marketing .card .right {
+  padding-inline: 2rem;
+}
+
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;

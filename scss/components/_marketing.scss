@@ -1,1 +1,23 @@
+.marketing {
+	padding-block: 10rem;
 
+	.card {
+		padding-block: 3.25rem;
+		display: flex;
+		align-items: center;
+		box-shadow: 0 0 1rem hsla(208, 11%, 55%, 0.2);
+		border-radius: 0.75rem;
+
+		&:not(:last-child) {
+			margin-bottom: 2.5rem;
+		}
+
+		.left {
+			padding-inline: 7.5rem;
+		}
+
+		.right {
+			padding-inline: 2rem;
+		}
+	}
+}
