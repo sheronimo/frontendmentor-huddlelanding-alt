@@ -51,7 +51,7 @@ a {
   width: 12.5rem;
 }
 
-.marketing {
+.hero {
   display: grid;
   grid-template-columns: 3fr 4fr;
   grid-gap: 2rem;
@@ -59,14 +59,14 @@ a {
   padding-top: 1rem;
   padding-bottom: 4.125rem;
 }
-.marketing .marketing-text .marketing-heading {
+.hero .hero-text .hero-heading {
   font-size: 2.5rem;
   margin-bottom: 1.8125rem;
 }
-.marketing .marketing-text .lead {
+.hero .hero-text .lead {
   margin-bottom: 2rem;
 }
-.marketing .marketing-text .btn {
+.hero .hero-text .btn {
   padding-inline: 4.375rem;
   padding-block: 1.25rem;
 }
