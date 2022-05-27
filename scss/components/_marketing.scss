@@ -19,5 +19,14 @@
 		.right {
 			padding-inline: 2rem;
 		}
+
+		.card-heading {
+			font-size: 1.75rem;
+			margin-bottom: 0.8125rem;
+		}
+
+		.card-text {
+			color: $clr-secondary;
+		}
 	}
 }

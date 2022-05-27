@@ -90,6 +90,13 @@ a {
 .marketing .card .right {
   padding-inline: 2rem;
 }
+.marketing .card .card-heading {
+  font-size: 1.75rem;
+  margin-bottom: 0.8125rem;
+}
+.marketing .card .card-text {
+  color: hsl(208deg, 11%, 55%);
+}
 
 body {
   line-height: 1.5;
