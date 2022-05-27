@@ -98,6 +98,20 @@ a {
   color: hsl(208deg, 11%, 55%);
 }
 
+.cta-card {
+  max-width: 50rem;
+  width: 94vw;
+  margin-inline: auto;
+  text-align: center;
+  box-shadow: 0 -0.25rem 1rem hsla(208deg, 11%, 55%, 0.2);
+  border-radius: 0.75rem;
+  padding: 3.25rem;
+}
+.cta-card .cta-heading {
+  font-size: 2rem;
+  margin-bottom: 2.375rem;
+}
+
 body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
