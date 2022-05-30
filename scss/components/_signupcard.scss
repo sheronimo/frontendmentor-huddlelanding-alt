@@ -6,6 +6,8 @@
 	box-shadow: 0 -0.25rem 1rem hsla(208, 11%, 55%, 0.2);
 	border-radius: 0.75rem;
 	padding: 3.25rem;
+	transform: translateY(50%);
+	background-color: $clr-white;
 
 	.cta-heading {
 		font-size: 2rem;
