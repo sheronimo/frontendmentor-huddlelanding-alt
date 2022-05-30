@@ -121,6 +121,16 @@ ul {
 .footer {
   background-color: hsl(192deg, 100%, 9%);
   padding-top: 12rem;
+  padding-bottom: 3rem;
+  color: hsla(193deg, 100%, 96%, 0.8);
+}
+.footer .footer-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer .sitemap-link:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 body {

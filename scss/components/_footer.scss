@@ -1,4 +1,18 @@
 .footer {
 	background-color: $clr-neutral-100;
 	padding-top: 12rem;
+	padding-bottom: 3rem;
+	color: hsla(193, 100%, 96%, 0.8);
+
+	.footer-grid {
+		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.sitemap-link {
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+	}
 }
