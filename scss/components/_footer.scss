@@ -15,4 +15,23 @@
 			margin-bottom: 1rem;
 		}
 	}
+
+	.sns-links {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.8125rem;
+
+		.sns-link {
+			color: $clr-white;
+			width: 2rem;
+			height: 2rem;
+			line-height: 2rem;
+			font-size: 0.75rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid $clr-white;
+			border-radius: 50%;
+		}
+	}
 }

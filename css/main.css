@@ -132,6 +132,23 @@ ul {
 .footer .sitemap-link:not(:last-child) {
   margin-bottom: 1rem;
 }
+.footer .sns-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8125rem;
+}
+.footer .sns-links .sns-link {
+  color: hsl(0deg, 0%, 100%);
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
 
 body {
   line-height: 1.5;
