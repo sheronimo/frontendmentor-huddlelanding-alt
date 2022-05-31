@@ -22,4 +22,9 @@
 		background-color: $clr-primary;
 		color: $clr-white;
 	}
+
+	&:hover {
+		opacity: 0.8;
+		transition: opacity 0.5s ease;
+	}
 }

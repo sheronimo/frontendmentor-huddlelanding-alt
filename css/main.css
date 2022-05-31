@@ -44,6 +44,10 @@ ul {
   background-color: hsl(322deg, 100%, 66%);
   color: hsl(0deg, 0%, 100%);
 }
+.btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
 
 .navbar {
   display: flex;
@@ -155,6 +159,9 @@ ul {
 .footer .footer-grid .sitemap-link:not(:last-child) {
   margin-bottom: 1rem;
 }
+.footer .footer-grid .sitemap-link a:hover {
+  text-decoration: underline;
+}
 .footer .footer-grid .sns-links {
   display: flex;
   align-items: flex-start;
@@ -171,6 +178,14 @@ ul {
   justify-content: center;
   border: 1px solid hsl(0deg, 0%, 100%);
   border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.footer .footer-grid .sns-links .sns-link a {
+  padding: 2rem;
+}
+.footer .footer-grid .sns-links .sns-link:hover {
+  color: hsl(322deg, 100%, 66%);
+  border-color: hsl(322deg, 100%, 66%);
 }
 .footer .footer-grid .copyright {
   font-size: 0.7rem;

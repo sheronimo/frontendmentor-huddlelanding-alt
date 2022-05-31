@@ -42,6 +42,10 @@
 			&:not(:last-child) {
 				margin-bottom: 1rem;
 			}
+
+			a:hover {
+				text-decoration: underline;
+			}
 		}
 
 		.sns-links {
@@ -60,6 +64,16 @@
 				justify-content: center;
 				border: 1px solid $clr-white;
 				border-radius: 50%;
+				transition: all 0.5s ease;
+
+				a {
+					padding: 2rem;
+				}
+
+				&:hover {
+					color: $clr-primary;
+					border-color: $clr-primary;
+				}
 			}
 		}
 
