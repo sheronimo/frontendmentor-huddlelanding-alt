@@ -1,0 +1,113 @@
+@media (max-width: 64rem) {
+	.marketing {
+		.card {
+			.left {
+				padding-inline: 2.5rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 50rem) {
+	.hero {
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.footer {
+		padding-top: 15rem;
+
+		.footer-grid {
+			grid-template-columns: 1fr;
+
+			.contact {
+				margin-right: 0;
+				margin-bottom: 4rem;
+			}
+
+			.sitemap-list-2 {
+				margin-top: 1rem;
+			}
+
+			.credits {
+				margin-top: 3rem;
+				text-align: center;
+
+				.sns-links {
+					justify-content: center;
+				}
+
+				.copyright {
+					margin-top: 1rem;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 37.5rem) {
+	.header {
+		background-image: url('../images/bg-hero-mobile.svg');
+	}
+
+	.navbar {
+		.logo {
+			max-width: 8rem;
+		}
+
+		.btn {
+			padding-block: 0.5rem;
+			padding-inline: 1rem;
+		}
+	}
+
+	.hero {
+		.hero-text {
+			.hero-heading {
+				font-size: 1.75rem;
+			}
+
+			.btn {
+				padding-inline: 3rem;
+				padding-block: 1rem;
+			}
+		}
+	}
+
+	.marketing {
+		padding-top: 4rem;
+
+		.card {
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			gap: 3rem;
+
+			&:nth-of-type(odd) {
+				.left {
+					order: 2;
+				}
+			}
+
+			.left,
+			.right {
+				padding-inline: 2rem;
+			}
+		}
+	}
+
+	.cta-card {
+		padding: 2rem;
+
+		.cta-heading {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.btn {
+			padding-block: 1rem;
+			padding-inline: 2rem;
+			width: 100%;
+		}
+	}
+}

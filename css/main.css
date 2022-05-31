@@ -56,7 +56,7 @@ ul {
   padding-block: 3rem;
 }
 .navbar .logo {
-  width: 12.5rem;
+  max-width: 12.5rem;
 }
 
 .hero {
@@ -80,7 +80,8 @@ ul {
 }
 
 .marketing {
-  padding-block: 10rem;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
 }
 .marketing .card {
   padding-block: 3.25rem;
@@ -162,12 +163,12 @@ ul {
 .footer .footer-grid .sitemap-link a:hover {
   text-decoration: underline;
 }
-.footer .footer-grid .sns-links {
+.footer .footer-grid .credits .sns-links {
   display: flex;
   align-items: flex-start;
   gap: 0.8125rem;
 }
-.footer .footer-grid .sns-links .sns-link {
+.footer .footer-grid .credits .sns-links .sns-link {
   color: hsl(0deg, 0%, 100%);
   width: 2rem;
   height: 2rem;
@@ -180,14 +181,14 @@ ul {
   border-radius: 50%;
   transition: all 0.5s ease;
 }
-.footer .footer-grid .sns-links .sns-link a {
+.footer .footer-grid .credits .sns-links .sns-link a {
   padding: 2rem;
 }
-.footer .footer-grid .sns-links .sns-link:hover {
+.footer .footer-grid .credits .sns-links .sns-link:hover {
   color: hsl(322deg, 100%, 66%);
   border-color: hsl(322deg, 100%, 66%);
 }
-.footer .footer-grid .copyright {
+.footer .footer-grid .credits .copyright {
   font-size: 0.7rem;
   margin-top: 11.25rem;
 }
@@ -197,6 +198,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   color: hsl(192deg, 100%, 9%);
+  background-color: hsl(0deg, 0%, 100%);
 }
 
 h1,
@@ -214,4 +216,91 @@ h6 {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+}
+
+@media (max-width: 64rem) {
+  .marketing .card .left {
+    padding-inline: 2.5rem;
+  }
+}
+@media (max-width: 50rem) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer {
+    padding-top: 15rem;
+  }
+  .footer .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer-grid .contact {
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+  .footer .footer-grid .sitemap-list-2 {
+    margin-top: 1rem;
+  }
+  .footer .footer-grid .credits {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .footer .footer-grid .credits .sns-links {
+    justify-content: center;
+  }
+  .footer .footer-grid .credits .copyright {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 37.5rem) {
+  .header {
+    background-image: url("../images/bg-hero-mobile.svg");
+  }
+
+  .navbar .logo {
+    max-width: 8rem;
+  }
+  .navbar .btn {
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+  }
+
+  .hero .hero-text .hero-heading {
+    font-size: 1.75rem;
+  }
+  .hero .hero-text .btn {
+    padding-inline: 3rem;
+    padding-block: 1rem;
+  }
+
+  .marketing {
+    padding-top: 4rem;
+  }
+  .marketing .card {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+  }
+  .marketing .card:nth-of-type(odd) .left {
+    order: 2;
+  }
+  .marketing .card .left,
+.marketing .card .right {
+    padding-inline: 2rem;
+  }
+
+  .cta-card {
+    padding: 2rem;
+  }
+  .cta-card .cta-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .cta-card .btn {
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
